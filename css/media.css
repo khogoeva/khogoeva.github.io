@@ -11,7 +11,7 @@
         font-size: 16px; /* Меньший размер шрифта для основного текста */
     }
 
-    .about_img img, .main_img img {
+    .about_img img, .main_img img .carousel-item {
         height: auto; /* Изображения адаптируются к экрану */
         max-width: 100%; /* Максимальная ширина изображения 100% от контейнера */
     }
@@ -23,6 +23,7 @@
 
     .btn {
         padding: 10px 20px; /* Меньшие кнопки на маленьких экранах */
+        margin: 10px;
         font-size: 14px;
     }
 }
