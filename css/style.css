@@ -73,7 +73,8 @@ h1{
 
 .main_img img{
     display:  block  ;
-    height: 375px;
+    height: auto; /* Изображения адаптируются к экрану */
+        max-width: 100%; 
     overflow-x: hidden;
 }
 
