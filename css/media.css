@@ -1,28 +1,28 @@
 @media (max-width: 768px) {
     .navbar-nav {
-        flex-direction: column; /* Вертикальное отображение на мобильных */
+        flex-direction: column; 
     }
 
     h1 {
-        font-size: 32px; /* Меньший размер шрифта для заголовка */
+        font-size: 32px; 
     }
 
     .main_text p {
-        font-size: 16px; /* Меньший размер шрифта для основного текста */
+        font-size: 16px; 
     }
 
     .about_img img, .main_img img .carousel-item {
-        height: auto; /* Изображения адаптируются к экрану */
-        max-width: 100%; /* Максимальная ширина изображения 100% от контейнера */
+        height: auto; 
+        max-width: 100%; 
     }
 
     .work_div img {
-        height: 80px; /* Меньший размер иконок */
+        height: 80px; 
         width: 80px;
     }
 
     .btn {
-        padding: 10px 20px; /* Меньшие кнопки на маленьких экранах */
+        padding: 10px 20px; 
         margin: 10px;
         font-size: 14px;
     }
@@ -30,5 +30,35 @@
 
 /* Для планшетов */
 @media (min-width: 768px) and (max-width: 992px) {
-    /* Пусть оставим те же правила как для мобильных, если нужно */
+
+    .navbar-nav {
+        flex-direction: column; 
+    }
+
+    h1 {
+        font-size: 32px; 
+    }
+
+    .main_text p {
+        font-size: 16px; 
+    }
+
+    .about_img img, .main_img img .carousel-item {
+        height: auto; 
+        max-width: 100%; 
+    }
+
+    .work_div img {
+        height: 80px; 
+        width: 80px;
+    }
+
+    .btn {
+        padding: 10px 20px; 
+        margin: 10px;
+        font-size: 14px;
+    }
 }
+
+
+
