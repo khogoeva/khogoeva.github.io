@@ -133,9 +133,6 @@ h1{
     text-align: center;
 }
 
-
-
-
 /*footer*/
 footer{
     padding: 20px 0;
@@ -147,10 +144,10 @@ footer{
     justify-content: center;
 }
 
-
 .d-block {
     align-items: center;
 }
+
 .carousel-control-prev-icon, 
         .carousel-control-next-icon {
             background-color: black !important; 
