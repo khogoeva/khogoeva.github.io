@@ -1,52 +1,33 @@
-/* ... */
-.main_text {
-    text-align: center;
-}
-
-.main_img img {
-    width: 100%; 
-    height: auto;
-}
-
-.work_div img {
-    max-width: 100%; 
-    height: auto;
-}
-
-h1, h2 {
-    font-size: 2rem;
-}
-
 @media (max-width: 768px) {
-    .main_text {
-        text-align: center;
+    .navbar-nav {
+        flex-direction: column; /* Вертикальное отображение на мобильных */
     }
 
-    .main_img img {
-        width: 100%; 
-        height: auto;
+    h1 {
+        font-size: 32px; /* Меньший размер шрифта для заголовка */
     }
 
-    h1, h2 {
-        font-size: 1.5rem;
+    .main_text p {
+        font-size: 16px; /* Меньший размер шрифта для основного текста */
     }
 
-    .work_div {
-        margin-bottom: 1rem; /* Добавить отступ между блоками */
+    .about_img img, .main_img img {
+        height: auto; /* Изображения адаптируются к экрану */
+        max-width: 100%; /* Максимальная ширина изображения 100% от контейнера */
+    }
+
+    .work_div img {
+        height: 80px; /* Меньший размер иконок */
+        width: 80px;
+    }
+
+    .btn {
+        padding: 10px 20px; /* Меньшие кнопки на маленьких экранах */
+        font-size: 14px;
     }
 }
 
-@media (max-width: 480px) {
-    .main_text {
-        font-size: 16px;
-    }
-
-    h1, h2 {
-        font-size: 1rem;
-    }
-
-    .work_div {
-        margin-bottom: 1rem; /* Добавить отступ между блоками */
-    }
+/* Для планшетов */
+@media (min-width: 768px) and (max-width: 992px) {
+    /* Пусть оставим те же правила как для мобильных, если нужно */
 }
-/* ... */
